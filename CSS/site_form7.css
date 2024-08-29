@@ -63,7 +63,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1200px; /* Maximum width of the form */
+    
     box-sizing: border-box;
     overflow-x: auto; /* Allow horizontal scrolling if needed */
 }
