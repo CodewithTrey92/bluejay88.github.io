@@ -314,8 +314,28 @@ nav a:hover {
     transition: .3s linear;
 }
 
-.content .imgBx:before {
+.content #imgBx1:before {
     content: 'Web Design';
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    color: white;
+    font-size: 7vw;
+    font-weight: 800;
+}
+
+.content #imgBx2:before {
+    content: 'Digital Marketing';
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    color: white;
+    font-size: 7vw;
+    font-weight: 800;
+}
+
+.content #imgBx3:before {
+    content: 'And More!';
     position: absolute;
     top: 0px;
     left: 24px;
