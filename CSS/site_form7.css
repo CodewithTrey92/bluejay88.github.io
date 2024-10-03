@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 30px;
 }
 
 body {
@@ -73,6 +74,8 @@ form {
     display: flex;
     flex-wrap: wrap; /* Ensure items wrap within the row */
     gap: 20px;
+    width: 50%;
+    margin: auto;
 }
 
 .form-column {
@@ -97,7 +100,7 @@ input[type="email"],
 select,
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 4px 10px;
     margin-bottom: 10px;
     border: 1px solid #666;
     border-radius: 4px;
@@ -117,10 +120,19 @@ button {
     border-radius: 4px;
     cursor: pointer;
     align-self: center;
+    
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Contact Form submit button centerd */
+.center{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 15px;
 }
 
 /* Responsive styles */
